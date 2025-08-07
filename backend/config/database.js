@@ -15,3 +15,5 @@ const runQuery = async () => {};
 const allQuery = async () => {}; 
  
 module.exports = { pool, initializeDatabase, getQuery, runQuery, allQuery }; 
+const cleanupOldData = async () => {}; 
+module.exports = { pool, initializeDatabase, getQuery, runQuery, allQuery, cleanupOldData }; 
