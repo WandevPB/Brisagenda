@@ -7,29 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
 node_modules
 dist
 dist-ssr
 *.local
-
-# Database files
-*.db
-*.sqlite
-*.sqlite3
-backend/agendamentos.db
-backend/data/
-
-# Environment files
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-backend/config.env
-
-# Uploads directory
-backend/uploads/
 
 # Editor directories and files
 .vscode/*
@@ -42,9 +23,19 @@ backend/uploads/
 *.sln
 *.sw?
 
-# Lock files (mantenha apenas um)
-bun.lockb
-yarn.lock
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
-# Build outputs
-build/
+# Environment files
+.env
+*.env
+config.env
+
+# Upload files
+uploads/
+backend/uploads/
+
+# Lock files (keep package-lock.json but ignore bun.lockb if using npm)
+bun.lockb
